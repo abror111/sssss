@@ -121,7 +121,7 @@ span {
   .nav {
     background-color: rgb(255, 255, 255);
     box-shadow: 3px 0 rgb(216, 215, 215);
-    width:95%;
+    /* width:95%; */
  
   }
 
