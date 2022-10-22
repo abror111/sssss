@@ -36,7 +36,7 @@ ul li {
 }
 
 .header {
-  max-width: 85%;
+  max-width:95%;
   margin: 0 auto;
 }
 
@@ -118,7 +118,12 @@ span {
 @media only screen and (max-width:800px) {
 
 
-
+  .nav {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 0 rgb(216, 215, 215);
+    max-width:90%;
+ 
+  }
 
   .heder_div {
     position: fixed;
@@ -138,7 +143,7 @@ span {
   }
 
   .show {
-    right:25px;
+    right: 25px;
     /* background-color:#000000; */
   }
 
