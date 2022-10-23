@@ -38,11 +38,16 @@ ul li {
 }
 
 .nav {
+  position: fixed;
   height: 50px;
+  top: 0;
+  right: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 10px;
+  /* padding-top: 30px; */
   background-color: rgb(255, 255, 255);
   box-shadow: 5px 8px rgb(226, 222, 222);
   border-radius: 12px;
