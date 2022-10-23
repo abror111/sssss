@@ -46,7 +46,7 @@ ul li {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
+  /* margin-top: 10px; */
   /* padding-top: 30px; */
   background-color: rgb(255, 255, 255);
   box-shadow: 5px 8px rgb(226, 222, 222);
@@ -138,17 +138,18 @@ span {
 
 @media only screen and (max-width:800px) {
 
-.header{
-  margin-bottom: 10px;
-}
+  .header {
+    margin-bottom: 10px;
+  }
 
   .nav {
     background-color: rgb(255, 255, 255);
-    box-shadow: 3px 0 rgb(216, 215, 215);
+    box-shadow: 0px -17px 0px 30px rgb(245, 243, 243);
     /* width:95%; */
     max-width: 85%;
     /* padding-top: 10px; */
     margin: 0 auto;
+    top: 10px;
 
   }
 
