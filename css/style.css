@@ -10,8 +10,22 @@ a {
 
 }
 
+/* .content {
+  max-width: 100%;
+} */
+
+
 body {
   background: #E5E5E5;
+  margin: 0 auto;
+  /* display: flex;
+  flex-direction: column; */
+
+}
+
+html {
+  display: flex;
+  flex-direction: column;
 }
 
 ul li {
@@ -36,8 +50,9 @@ ul li {
 }
 
 .header {
-  max-width:95%;
-  margin: 0 auto;
+  max-width: 100%;
+  /* margin: 0 auto; */
+  padding: 0 20px;
 }
 
 .heder_list {
@@ -122,7 +137,7 @@ span {
     background-color: rgb(255, 255, 255);
     box-shadow: 3px 0 rgb(216, 215, 215);
     /* width:95%; */
- 
+
   }
 
   .heder_div {
@@ -213,4 +228,112 @@ span {
     height: 3px;
     background-color: #000000;
   }
+
+  .header_section .here {
+    grid-template-columns: repeat(1, 1fr);
+
+  }
+
+  .here_deck {
+    text-align: center;
+  }
+
+  .span_here {
+    display: inline-block;
+  }
+
+  .span_here a {
+    display: inline-block;
+  }
+
+  .span_here a{
+    margin-bottom: 10px;
+  } .here .here_deck h1 {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  .here_img {
+    margin-top: 30px;
+  }
+
+  .here_img .here_img-1 {
+    max-width: 100%;
+  }
+}
+
+
+/* secsion here */
+
+/* .here_img{
+  background-image: url("../img/Maskgroup.png");
+  background-repeat: no-repeat;
+} */
+.here_img-1 {
+  width: 350px;
+}
+
+.here {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  /* justify-items: center; */
+  align-items: center;
+  /* gap:20px; */
+}
+
+.here_deck h1 {
+
+  /* max-width: 492px; */
+  /* height: 246px; */
+  font-family: 'Ageo Personal Use';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 74px;
+  line-height: 82px;
+
+  /* or 111% */
+  margin-bottom: 26px;
+
+  color: #0B1B35;
+}
+
+.here_deck p {
+  /* font-family: 'italic'; */
+  font-style: italic;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 28px;
+  /* max-width: 555px; */
+  /* or 130% */
+  margin-bottom: 50px;
+  color: #000000;
+}
+
+.header_section {
+  margin-top: 60px;
+}
+
+.span_here a {
+  width: 196px;
+  height: 64px;
+
+  border-radius: 32px;
+  text-align: center;
+  line-height: 64px;
+}
+
+.span_a1 {
+  border: none;
+  background: #FF6600;
+
+}
+
+.span_a {
+  border: none;
+  border: 1px solid #000;
+
+}
+
+.here_img {
+  text-align: center;
 }
